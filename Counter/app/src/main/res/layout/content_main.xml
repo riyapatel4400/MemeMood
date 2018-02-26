@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.green.counter.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Memes"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="217dp"
+        android:layout_weight="0.5"
+        android:text="0">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/happy"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="50dp"
+            android:text=":)" />
+
+        <Button
+            android:id="@+id/sad"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="50dp"
+            android:text=":(" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/meme1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/meme1" />
+        <ImageView
+            android:id="@+id/meme2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/meme2" />
+        <ImageView
+            android:id="@+id/meme3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/meme3" />
+        <ImageView
+            android:id="@+id/meme4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/meme4" />
+        <ImageView
+            android:id="@+id/meme5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/meme5" />
+        <ImageView
+            android:id="@+id/meme6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/meme6" />
+        <ImageView
+            android:id="@+id/meme7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/meme7" />
+        <ImageView
+            android:id="@+id/meme8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/meme8" />
+        <ImageView
+            android:id="@+id/meme9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/meme9" />
+        <ImageView
+            android:id="@+id/meme10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:src="@drawable/meme10" />
+
+    </FrameLayout>
+</LinearLayout>
